@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:  #E5E5E5;
+}
+
+@font-face {
+    src: url("briarwood_heavy_font-webfont.ttf");
+    font-family: briarwood_heavy_font-webfont;
+}
+
+@font-face {
+    font-family: Straight Fighter;
+    src: url("Straight\ Fighter.ttf");
+}
+
+.container{
+    background-color:  #2c1746;
+    width: 700px;
+    margin: 150px auto;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    padding: 40px 0px;
+}
+
+h3{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 50px;
+    font-family: briarwood_heavy_font-webfont;
+}
+
+p{
+    margin: 0px;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 85px;
+    color: #F94F6D;
+    font-family: Straight Fighter;
+    line-height: 130px;
+}
+
+.buttons{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    background-color:  #2c1746;
+    color: #9AABD8;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
